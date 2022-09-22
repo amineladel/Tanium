@@ -1,7 +1,139 @@
-ul li{
-    display: inline;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-header {
+    background-color: #E8E8E8;
+    border-bottom: #1B222E 2px solid;
+}
+
+.nav-brand {
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.menu-logo {
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 0;
+    padding-top: 7px;
+    padding-right: 5px;
+}
+
+.burger-icon {
+    width: 6vw;
+    height: 1.4vw;
+    background-color: black;
+    margin-bottom: .3vh;
+    border-radius: 1500px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .menu-1 {
+    transform: translate(0, .95vh) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .menu-2 {opacity: 0;}
+
+/* Rotate last bar */
+.change .menu-3 {
+    transform: translate(0, -.95vh) rotate(45deg);
+}
+
+@media screen and (min-width: 800px) {
+    .change .menu-1 { transform: translate(0, 13px) rotate(-45deg); }
+    .change .menu-3 { transform: translate(0, -13px) rotate(45deg); }
+}
+
+@media screen  and (min-width: 1000px) {
+    .burger-icon {
+        width: 50px;
+        height: 8px;
+        margin-bottom: 5px ;
+    }
+
+    .change .menu-1 { transform: translate(0, 12px) rotate(-45deg); }
+
+    .change .menu-3 { transform: translate(0, -12px) rotate(45deg); }
+}
+
+#nav {
+    list-style: none;
+    visibility: collapse;
+    opacity: 0;
+    text-align: center;
+    padding-top: 1vh;
+    border-bottom: #1B222E 2px solid;
+    transition: opacity 2s;
+}
+
+.nav-item {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--bleu);
+}
+
+.nav-item {
+    color: var(--bleu);
+}
+
+.active {
+    color: var(--bleu);
 }
 
 a {
-    text-decoration-line: none;
+    overflow: hidden;
+}
+
+a:hover {
+    /*background-color: rgba(217,66,59, .7);*/
+    color: var(--bleu);
+    text-decoration: none;
+}
+
+a:hover span {
+    border-bottom: 2px solid var(--bleu);
+}
+
+a::after {
+    opacity: 1;
+    transform: translateX(-100%);
+}
+
+a:hover::after,a:focus::after {
+    transform: translate3d(0, 0, 0);
+}
+
+a:active {
+    color: var(--bleu);
+    text-decoration: none;
+}
+
+
+:root {
+    --bleu: #1B222E;
+    --rouge-1: #AF2417;
+    --rouge-2: #971E15;
+    --rouge-3: #D8423C;
+    --rouge-btn: #D9423B;
+    --blanc: #FFFFFF;
 }
