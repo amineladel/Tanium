@@ -1,7 +1,0 @@
-Groupe numéro : 18
-
-Etudiant 1 (référent du groupe) nom : Lucas BESSON  email :lucas.besson02@edu.univ-fcomte.fr
-
-URL du site github page : https://lucas-besson.github.io/SAE-R05_06/
-URL du projet github : https://github.com/lucas-besson/SAE-R05_06
-
