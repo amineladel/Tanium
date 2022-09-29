@@ -1,0 +1,46 @@
+.subtitles {
+    bottom: 10vh;
+}
+
+.text-bg {
+    color: var(--blanc);
+    position: relative;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -60%);
+
+    width: 75%;
+    height: 60vh;
+}
+
+div.boxvideo
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+div.boxvideo video
+{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+.boxvideo::before
+{
+    position: absolute;
+    content: "";
+    height:  100%;
+    width: 100%;
+    z-index: -99;
+    background-color: black;
+    opacity: 0.3;
+}
