@@ -91,13 +91,12 @@
 
 .back-top .border img {
     margin-left: 8px;
-    margin-top: 8px;
+    margin-top: 6px;
     width: 60px;
     height: 60px;
 }
 
 .presentation {
-    margin-top: -1.8vh;
     height: 100vh;
     text-align: center;
     min-height: 100%;
@@ -108,7 +107,18 @@
     padding-top: 10vh;
     color: var(--blanc);
 }
+
+.presentation .text p {
+    font-size: 4vh;
+}
+
 .bienvenu {
     font-size: 5vh;
     margin-top: 10vh;
+}
+
+.card {
+    background-color: var(--blanc);
+    height: 100px;
+    width: 100px;
 }
