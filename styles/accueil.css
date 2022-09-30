@@ -7,38 +7,71 @@
     position: relative;
 
     top: 50%;
-    left: 50%;
+    left: 30%;
 
     transform: translate(-50%, -60%);
 
-    width: 75%;
-    height: 60vh;
+    width: 40%;
+    height: 50vh;
+
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    justify-content: center;
 }
 
-div.boxvideo
-{
-    position: relative;
+.text {
+    margin-left: 10vw;
+}
+
+.title-logo {
+    margin-top: -5vh;
+    margin-left: -5vh;
+    width: 25vw;
+    height: 20vw;
+}
+
+.under-title {
+    width: 400px;
+    border-radius: 100px;
+    border: white 4px solid;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    margin-top: -11vh;
+}
+
+.sub-title {
+    margin-top: 5vh;
+    font-size: 4vh;
+}
+
+.boxvideo {
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 
-div.boxvideo video
-{
+.boxvideo video {
     position: absolute;
     min-width: 100%;
     min-height: 100%;
-    top: 50%;
+    top: 42%;
     left: 50%;
     z-index: -100;
     transform: translate(-50%, -50%);
 }
 
-.boxvideo::before
-{
+@media screen and (min-height: 10px) {
+    .boxvideo video { top: 50%; }
+}
+
+.boxvideo::before {
     position: absolute;
     content: "";
-    height:  100%;
+    height:  110%;
     width: 100%;
     z-index: -99;
     background-color: black;
