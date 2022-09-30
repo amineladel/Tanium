@@ -118,7 +118,38 @@
 }
 
 .card {
+    display: inline-block;
+    margin-top: 2%;
     background-color: var(--blanc);
-    height: 100px;
-    width: 100px;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 10px;
+    margin-left: 5%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 50%);
+}
+
+.card .best-buy {
+    height: 8vw;
+    padding-top: 3.2vw;
+    padding-left: 1vw;
+}
+
+.card .godaddy {
+    width: 10vh;
+}
+
+.card .univ {
+    width: 10vw;
+    padding-top: 1.5vw;
+
+}
+
+.card .western-union {
+    width: 10vw;
+    padding-top: .2vw;
+}
+
+.card .whirlpool {
+    width: 10vh;
+    padding-top: 3.5vw;
 }
