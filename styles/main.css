@@ -187,6 +187,58 @@ body {
     100% { transform: translateY(20px); opacity: 0;}
 }
 
+.footer {
+    color: var(--blanc);
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.footer .credit {
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.footer .github {
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.footer .github .github-link {
+    color: var(--blanc);
+    text-decoration: underline var(--blanc);
+}
+
+.footer .pages {
+    margin-left: 20%;
+    padding-right: 8%;
+}
+
+.footer .pages .ft-underline {
+    height: 3%;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.footer .link {
+    color: var(--blanc);
+    text-decoration: underline var(--blanc);
+    
+}
+
+.footer .groupe .ft-underline {
+    height: 3%;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    width: 60%;
+    margin-left: 5%;
+}
+
+
 :root {
     --bleu: #1B222E;
     --rouge-1: #AF2417;
