@@ -20,7 +20,7 @@ body{
 }
 
 .container{
-    margin-top: 70px;
+    margin-top: 6%;
     border: 1px solid white;
     position: absolute;
     top : 30%;
@@ -61,7 +61,7 @@ body{
 }
 
 .para2{
-    line-height: 28px;
+    line-height: 3%;
     margin-top: 8%;
     margin-left: 50%;
     margin-right: 10%;
@@ -75,6 +75,17 @@ body{
 .card1{
     margin-left: 40%;
     top : 50%;
+    width : 300px;
+    padding: 30px;
+    background-color: #971E15;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 15px 50px rgba(0,0,0.2);
+}
+
+.card2{
+    margin-left: 70%;
+    margin-top: 10%;
     width : 300px;
     padding: 30px;
     background-color: #971E15;
