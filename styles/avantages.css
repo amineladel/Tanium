@@ -1,0 +1,95 @@
+/* Généale*/
+.h1{
+    color: black;
+    font-size: 20px;
+}
+
+h2{
+    color: black;
+    font-size: 13px;
+}
+
+.mouse-scroll{
+    left: 48.2%;
+}
+
+.image-bg {
+    width: 100%;
+}
+
+.blur {
+    margin-top: -120vh;
+    background: rgba(0,0,0,.3);
+    backdrop-filter: blur(5px);
+    height: 119vh;
+    width: 100%;
+}
+
+
+.bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 2%;
+    text-align: center;
+}
+.bg-text img{
+    width: 23%;
+}
+
+.bg-text h1{
+    overflow: hidden;
+    border-right: .15em solid red;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: red; }
+}
+
+
+.text-chiffre{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#nav {
+    background-color: rgba(232,232,232,100%);
+
+}
+
+.nav-header{
+    background-color: rgba(232,232,232,100%);
+}
+
+@media screen and (min-width: 1000px){
+    .nav-header{
+        background-color: rgba(232,232,232,100%);
+    }
+
+
+    #nav {
+        background-color: rgba(232,232,232,100%);
+
+    }
+}

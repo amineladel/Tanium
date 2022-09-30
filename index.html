@@ -14,10 +14,10 @@
     <!--  Javascript pour changer du style quand le on clique sur le menu burger  -->
     <script src="js/main.js"></script>
 </head>
-<body class="bg">
+<body id="top" class="bg">
     <div id="navbar">
         <div class="nav-header">
-            <img class="nav-brand" src="assets/logo.svg" alt="Le logo de Tanium">
+            <a href="index.html"><img class="nav-brand" src="assets/logo.svg" alt="Le logo de Tanium"></a>
             <div class="menu-logo"  onclick="logo(this)">
                 <div class="burger-icon menu-1"></div>
                 <div class="burger-icon menu-2"></div>
@@ -42,29 +42,16 @@
             </ul>
         </div>
     </div>
-<!--    <div class="container video-bg">-->
-<!--        <video id="video" autoplay muted loop>-->
-<!--            <source src="assets/acceuil-fond.webm" type="video/webm">-->
-<!--            <track-->
-<!--                    class="subtitles"-->
-<!--                    label="Français"-->
-<!--                    kind="subtitles"-->
-<!--                    srclang="fr"-->
-<!--                    src="assets/acceuil.fr.vtt"-->
-<!--                    default-->
-<!--            />-->
-<!--        </video>-->
-<!--    </div>-->
 
-    <div class="boxvideo">
+    <div class="box-video">
         <video class="video" autoplay muted loop>
-            <source src="assets/acceuil-fond.webm" type="video/webm">
+            <source src="assets/accueil-fond.webm" type="video/webm">
             <track
                             class="subtitles"
                             label="Français"
                             kind="subtitles"
                             srclang="fr"
-                            src="assets/acceuil.fr.vtt"
+                            src="assets/accueil.fr.vtt"
                             default
             />
         </video>
@@ -79,11 +66,46 @@
     <div>
         <p></p>
     </div>
+    <section>
+        <div class="presentation">
+            <div class="text">
+                <span class="bienvenu"><strong>Bienvenu sur le site de présentation de TANIUM.</strong></span>
+                <p>TANIUM est une entreprise qui propose des outils pour sécurité informatique aux entreprises.</p>
+            </div>
+            <div class="logo-partenaires">
+                <div class="card">
+                    <img class="best-buy" src="assets/partenaire_logo/bestbuy.png" alt="best buy">
+                </div>
+                <div class="card">
+                    <img class="godaddy" src="assets/partenaire_logo/godaddy.png" alt="best buy">
+                </div>
+                <div class="card">
+                    <img class="univ" src="assets/partenaire_logo/University-of-Salford.jpg" alt="best buy">
+                </div>
+                <br />
+                <div class="card">
+                    <img class="western-union" src="assets/partenaire_logo/western_union.png" alt="best buy">
+                </div>
+                <div class="card">
+                    <img class="whirlpool" src="assets/partenaire_logo/whirlpool.png" alt="best buy">
+                </div>
+                <div class="card">
+                    <img class="best-buy" src="assets/partenaire_logo/bestbuy.png" alt="best buy">
+                </div>
+            </div>
+            
+        </div>
+    </section>
 
     <div class="mouse-scroll">
-        <div class="scroll-annimation"></div>
+        <div class="scroll-animation"></div>
     </div>
-    <script src="js/accueil.js"></script>
+    <a class="back-top" href="#top">
+        <div class="border">
+            <img src="assets/up_arrow.png" alt="image pour remonter en haut de la page">
+        </div>
+    </a>
+
 </body>
 
 </html>

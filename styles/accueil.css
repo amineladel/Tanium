@@ -23,7 +23,7 @@
     justify-content: center;
 }
 
-.text {
+.text-bg .text {
     margin-left: 10vw;
 }
 
@@ -48,13 +48,13 @@
     font-size: 4vh;
 }
 
-.boxvideo {
+.box-video {
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 
-.boxvideo video {
+.box-video video {
     position: absolute;
     min-width: 100%;
     min-height: 100%;
@@ -64,16 +64,92 @@
     transform: translate(-50%, -50%);
 }
 
-@media screen and (min-height: 10px) {
-    .boxvideo video { top: 50%; }
-}
-
-.boxvideo::before {
+.box-video::before {
     position: absolute;
     content: "";
-    height:  110%;
+    height:  100%;
     width: 100%;
     z-index: -99;
     background-color: black;
     opacity: 0.3;
+}
+
+.mouse-scroll {
+    top: 85%;
+    left: 10%;
+}
+
+.back-top .border {
+    position: fixed;
+    top: 88%;
+    left: 90%;
+    border: rgba(232,232,232,50%) 2px solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.back-top .border img {
+    margin-left: 8px;
+    margin-top: 6px;
+    width: 60px;
+    height: 60px;
+}
+
+.presentation {
+    height: 100vh;
+    text-align: center;
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right, var(--rouge-1), var(--rouge-btn));
+}
+
+.presentation .text {
+    padding-top: 10vh;
+    color: var(--blanc);
+}
+
+.presentation .text p {
+    font-size: 4vh;
+}
+
+.bienvenu {
+    font-size: 5vh;
+    margin-top: 10vh;
+}
+
+.card {
+    display: inline-block;
+    margin-top: 2%;
+    background-color: var(--blanc);
+    height: 10vw;
+    width: 10vw;
+    border-radius: 10px;
+    margin-left: 5%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 50%);
+}
+
+.card .best-buy {
+    height: 8vw;
+    padding-top: 3.2vw;
+    padding-left: 1vw;
+}
+
+.card .godaddy {
+    width: 10vh;
+}
+
+.card .univ {
+    width: 10vw;
+    padding-top: 1.5vw;
+
+}
+
+.card .western-union {
+    width: 10vw;
+    padding-top: .2vw;
+}
+
+.card .whirlpool {
+    width: 10vh;
+    padding-top: 3.5vw;
 }
