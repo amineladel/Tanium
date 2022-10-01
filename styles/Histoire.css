@@ -1,14 +1,14 @@
 h1{
     text-align:left;
     color: White;
-    font-size: 35px;
-    margin-top: 70px;
+    font-size: 300%;
+    margin-top: 5%;
 }
 
 h2{
     text-align: left;
     color: White;
-    font-size: 40px;
+    font-size: 300%;
 }
 
 body{
@@ -26,11 +26,11 @@ body{
     top : 30%;
     left: 80%;
     transform: translate(-50%, -50%);
-    width: 600px;
-    padding: 30px;
+    width: 30%;
+    padding: 2%;
     background: #1B222E;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 6%;
     box-shadow: 0 15px 50px rgba(0,0,0,.2);
 }
 .circle{
@@ -41,15 +41,16 @@ body{
     border-radius: 50%;
     float: left;
     shape-outside: circle();
-    margin:30px;
+    margin:4%;
 }
 
 .para1{
-    line-height: 40px;
-    margin-top: 15%;
+    line-height: 200%;
+    margin-top: 18%;
     margin-left: 32%;
     margin-right: 10%;
     transform : translate(-50%, -50%);
+    font-size: 135%;
 }
 
 .container2{
@@ -62,12 +63,12 @@ body{
 
 .para2{
     line-height: 3%;
-    margin-top: 8%;
+    margin-top: 13%;
     margin-left: 50%;
     margin-right: 10%;
     transform : translate(-50%, -50%);
     font-family: cursive;
-    font-size: 25px;
+    font-size: 120%;
 }
 
 
@@ -75,7 +76,7 @@ body{
 .card1{
     margin-left: 40%;
     top : 50%;
-    width : 300px;
+    width : 15%;
     padding: 30px;
     background-color: #971E15;
     box-sizing: border-box;
@@ -84,9 +85,22 @@ body{
 }
 
 .card2{
+    position: absolute;
     margin-left: 70%;
-    margin-top: 10%;
-    width : 300px;
+    top: 117%;
+    width : 15%;
+    padding: 30px;
+    background-color: #971E15;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 15px 50px rgba(0,0,0.2);
+}
+
+.card3{
+    position: absolute;
+    margin-left: 10%;
+    top : 117%;
+    width : 15%;
     padding: 30px;
     background-color: #971E15;
     box-sizing: border-box;
@@ -95,14 +109,14 @@ body{
 }
 
 .carre1{
-    width :100px;
-    height: 100px;
+    width :45%;
+    height: 45%;
     float: left;
 }
 
 
 .titremodule{
-    font-size: 25px;
+    font-size: 160%;
     font-family: cursive;
 }
 
@@ -111,6 +125,8 @@ waviy {
     margin-top: 20%;
     font-size: 40px;
 }
+
+
 .waviy span {
     position: relative;
     display: inline-block;
@@ -128,5 +144,5 @@ waviy {
 
 .mouse-scroll{
     left: 80%;
-    top: 68%;
+    top: 85%;
 }
