@@ -130,3 +130,9 @@ body{
     left: 80%;
     margin-top: 5%;
 }
+
+@media screen  and (min-width: 1600px) {
+    .underline {
+        margin-left: 19%;
+    }
+}

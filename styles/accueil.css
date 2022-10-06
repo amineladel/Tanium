@@ -150,6 +150,11 @@
     transform: scale(1.10, 1.10);
 }
 
+.container .link {
+    text-decoration: none;
+    color: white;
+}
+
 .best-buy, .godaddy, .univ, .western-union, .whirlpool {
     width: 90%;
 }
