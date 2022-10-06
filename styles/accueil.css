@@ -1,25 +1,25 @@
-.subtitles {
-}
-
 .text-bg {
     color: var(--blanc);
     position: relative;
 
-    top: 50%;
-    left: 30%;
+    top: 50vh;
+    left: 30vw;
 
     transform: translate(-50%, -60%);
 
-    width: 40%;
+    width: 40vw;
     height: 50vh;
 
-    background: rgba(255, 255, 255, 0.23);
+    background: rgba(155, 155, 150, 0.25);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    
+    display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .text-bg .text {
@@ -27,24 +27,25 @@
 }
 
 .title-logo {
-    margin-top: -5vh;
-    margin-left: -5vh;
-    width: 25vw;
-    height: 20vw;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: 20vmax;
+    height: 20vmin;
 }
 
 .under-title {
-    width: 400px;
+    width: 70%;
     border-radius: 100px;
     border: white 4px solid;
     color: #FFFFFF;
     background-color: #FFFFFF;
-    margin-top: -11vh;
+    margin-top: 0vh;
 }
 
 .sub-title {
     margin-top: 5vh;
-    font-size: 4vh;
+    font-size: 4vmin;
 }
 
 .box-video {
@@ -96,27 +97,28 @@
 }
 
 .presentation {
+    padding-top: 10vh;
     height: 100vh;
     text-align: center;
     min-height: 100%;
-    background-image: linear-gradient(to bottom right, var(--rouge-1), var(--rouge-btn));
+    background: linear-gradient(to bottom right, #C00000, #EC2E30);
+    /* background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%); */
     padding-bottom: 120vh;
 }
 
 .presentation .text {
-    padding-top: 10vh;
     color: var(--blanc);
 }
 
 .presentation .text p {
-    font-size: 4vh;
+    font-size: 4vw;
 }
-
 
 .bienvenu {
-    font-size: 5vh;
+    font-size: 5vw;
     margin-top: 10vh;
 }
+
 
 .logo-partenaires {
     margin-top: 4%;
@@ -124,7 +126,7 @@
 
 .partenaires {
     text-decoration: underline var(--blanc);
-    font-size: 4vh;
+    font-size: 4vw;
     color: var(--blanc);
 }
 
@@ -150,4 +152,28 @@
 
 .best-buy, .godaddy, .univ, .western-union, .whirlpool {
     width: 90%;
+}
+
+@media screen and (min-width: 600px) {
+    .presentation .text p {
+        font-size: 4vh;
+    }
+    
+    .bienvenu {
+        font-size: 5vh;
+    }
+    
+    .partenaires {
+        font-size: 4vh;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card {
+        width: 250;
+        height: 190;
+        margin-top: 3%;
+        margin-bottom: 2%;
+        margin-left: 5%;
+    }
 }
