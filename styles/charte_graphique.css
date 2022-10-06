@@ -1,0 +1,50 @@
+.couleur {
+    padding-top: 4%;
+}
+
+.couleur .bleu,.rouge-1,.rouge-2,.rouge-3,.rouge-btn,.blanc,.couleur-text {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-top: 5px;
+    border: black solid;
+    border-radius: 5px;
+}
+
+.bleu {
+    background-color: var(--bleu);
+}
+
+.rouge-1 {
+    background-color: var(--rouge-1);
+}
+
+.rouge-2 {
+    background-color: var(--rouge-2);
+}
+
+.rouge-3 {
+    background-color: var(--rouge-3);
+}
+
+.rouge-btn {
+    background-color: var(--rouge-btn);
+}
+
+.blanc {
+    background-color: var(--blanc);
+}
+
+.couleur-text {
+    background-color: var(--text-color);
+}
+
+.footer {
+    background-color: var(--bleu);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}

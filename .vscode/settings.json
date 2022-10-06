@@ -1,0 +1,6 @@
+{
+    "css.styleSheets": [
+        "styles/${fileBasenameNoExtension}.css",
+    ],
+    "html-to-css-autocompletion.autocompletionFilesScope": "workspace"
+}
