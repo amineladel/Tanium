@@ -96,3 +96,23 @@ h2{
 
     }
 }
+
+.container .boite1,.boite2,.boite3,.boite4{
+    background-color: var(--bleu);
+    color: white;
+    font-weight: bold;
+    padding-bottom: 13%;
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+
+
+.container {
+    display: flex;
+    margin-left: 14%;
+    margin-bottom: 30px;
+}
