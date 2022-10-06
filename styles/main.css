@@ -197,13 +197,10 @@ body {
 
 .footer {
     color: var(--blanc);
+    background-color: var(--bleu);
     display: flex;
     padding-top: 2%;
-<<<<<<< HEAD
     padding-bottom: 9%;
-=======
-    padding-bottom: 8%;
->>>>>>> 38122b66236b1bd4dd4c611425582c63df4c6c22
 }
 
 .footer .credit {
