@@ -90,7 +90,7 @@
 }
 
 .container .boite1,.boite2,.boite3,.boite4{
-    background-color: var(--bleu);
+    background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%);
     color: white;
     font-weight: bold;
     padding-bottom: 13%;
@@ -119,7 +119,7 @@
     padding-top: 3%;
     padding-bottom: 13%;
     color: #FFFFFF;
-    background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%);
+    background-color: #1B222E;
 }
 
 .lien_video{
@@ -156,7 +156,7 @@
 
 .temoignage{
     text-align: center;
-    background-color: #1B222E;
+    background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%);
     flex-wrap: wrap;
     padding-bottom: 1%;
 }
@@ -167,12 +167,32 @@
     color: #FFFFFF;
 }
 
-.les-partenaires{
+.rejoindre{
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
+.rejoindre .text-rejoindre{
+    margin-bottom: 2%;
+}
+.rejoindre .bouton {
+    background-color: #1B222E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+.rejoindre .bouton:hover {
+    background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%);
+    color: white;
+    transform: scale(1.05, 1.05);
+}
 
 
 @media screen  and (min-width: 1600px) {
