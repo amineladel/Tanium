@@ -199,7 +199,7 @@ body {
     color: var(--blanc);
     display: flex;
     padding-top: 2%;
-    padding-bottom: 4%;
+    padding-bottom: 8%;
 }
 
 .footer .credit {
