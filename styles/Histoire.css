@@ -1,4 +1,4 @@
-h1{
+.titreprinci{
     text-align:left;
     color: White;
     font-size: 300%;
@@ -8,7 +8,7 @@ h1{
     padding-bottom: 2%;
 }
 
-h2{
+.titresecondaire{
     text-align: left;
     color: White;
     font-size: 300%;
@@ -78,7 +78,10 @@ body{
     font-size: 120%;
 }
 
-
+.paramodule{
+    padding-bottom: 5%;
+    font-size: 100%;
+}
 
 .card1{
     position: center;
@@ -91,7 +94,6 @@ body{
 }
 
 
-
 .carre1{
     width :45%;
     height: 45%;
@@ -102,27 +104,59 @@ body{
 .titremodule{
     font-size: 160%;
     font-family: cursive;
+    padding : 2%
 }
 
 .waviy {
     text-align: center;
     margin-top: 20%;
-    font-size: 40px;
+    font-size: 200%;
 }
 
 
 .waviy span {
     position: relative;
     display: inline-block;
-    font-size: 40px;
+    font-size:100%;
     color: #fff;
     text-transform: uppercase;
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i))
 }
+
+@media screen and (max-width : 1714px){
+    .paramodule{
+        font-size : 80%;
+        padding: 1%;
+    }
+    .card1{
+        padding: 1%;
+    }
+    .titremodule{
+        font-size: 130%;
+    }
+}
+
+@media screen and (max-width : 1224px){
+    .paramodule{
+        font-size : 70%;
+        padding: 1%;
+    }
+    .card1{
+        padding: 1%;
+    }
+    .titremodule{
+        font-size: 100%;
+    }
+    .waviy{
+        font-size: 100%;
+    }
+}
+
+
 @keyframes flip {
     0%,80% {
-        transform: rotateY(360deg)
+        transform: rotateY(720deg)
     }
 }
 
@@ -131,7 +165,7 @@ body{
     margin-top: 5%;
 }
 
-@media screen  and (min-width: 1600px) {
+@media (min-width: 600px) and (max-width: 800px) {
     .underline {
         margin-left: 19%;
     }
