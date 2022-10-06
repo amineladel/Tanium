@@ -125,6 +125,7 @@
 .lien_video{
     margin-top: -10%;
     box-shadow: 2px 2px 12px black;
+    transition: 0.4s ease-in-out;
 }
 
 .video {
@@ -132,6 +133,9 @@
     margin-bottom: 70px;
 }
 
+.lien_video:hover{
+    transform: scale(1.05, 1.05);
+}
 
 .temoignage .tem1,.tem2,.tem3{
     background-color: white;
@@ -176,7 +180,7 @@
 .rejoindre .text-rejoindre{
     margin-bottom: 2%;
 }
-.rejoindre .bouton {
+.rejoindre .button {
     background-color: #1B222E;
     border: none;
     color: white;
@@ -188,10 +192,10 @@
     border-radius: 10px;
     transition: 0.4s ease-in-out;
 }
-.rejoindre .bouton:hover {
+.rejoindre .button:hover {
     background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%);
-    color: white;
     transform: scale(1.05, 1.05);
+    cursor: pointer;
 }
 
 
