@@ -113,7 +113,11 @@
 .container {
     display: flex;
     margin-bottom: 80px;
-    margin-left: 14%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-left: 2%;
 }
 
 .titre-video{
@@ -158,6 +162,8 @@
 .temoignage .tem1:hover,.tem2:hover,.tem3:hover{
     transform: scale(1.05, 1.05);
 }
+
+
 
 .temoignage{
     text-align: center;
