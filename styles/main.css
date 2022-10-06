@@ -29,7 +29,7 @@ body {
 .nav-brand { 
     justify-content: center;
     padding-top: 15px;
-    padding-left: 15px;
+    padding-left: 25px;
     padding-bottom: 15px;
 }
 
@@ -101,8 +101,9 @@ body {
     #nav {
         visibility: visible;
         opacity: 1;
-        font-size: 35px;
+        font-size: 30px;
         padding: 0;
+        padding-top: .2vmin;
         border-bottom: none;
         margin-top: -6.5vmin;
         background-color: rgba(0,0,0,0%);
@@ -118,6 +119,8 @@ body {
         width: 25vmax;
         padding: .75rem 0;
     }
+
+    .link-1:hover ~ hr { margin-left: 1%;}
 
     .link-2:hover ~ hr { margin-left: 19%; }
 
@@ -196,53 +199,53 @@ body {
     color: var(--blanc);
     display: flex;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
 }
 
 .footer .credit {
-    margin-left: 5%;
-    margin-top: 3%;
+    position: absolute;
+    left: 2.5%;
+    margin-top: 2%;
 }
 
 .footer .github {
-    margin-top: 2%;
-    margin-left: 3%;
+    position: absolute;
+    left: 25%;
+    margin-top: 1.5%;
 }
 
 .footer .github .github-link {
     color: var(--blanc);
     text-decoration: underline var(--blanc);
+    transition: .4s;
+}
+
+.footer .github .github-link:hover {
+    padding-left: 10px;
+    transition: .4s;
 }
 
 .footer .pages {
-    margin-left: 20%;
-    padding-right: 8%;
-}
-
-.footer .pages .ft-underline {
-    height: 3%;
-    background-color: white;
-    border: none;
-    border-radius: 100px;
-    width: 50%;
-    margin-left: 2%;
+    position: absolute;
+    left: 50%;
+    padding-bottom: 2%;
 }
 
 .footer .link {
     color: var(--blanc);
     text-decoration: underline var(--blanc);
-    
+    transition: .4s;
 }
 
-.footer .groupe .ft-underline {
-    height: 3%;
-    background-color: white;
-    border: none;
-    border-radius: 100px;
-    width: 60%;
-    margin-left: 5%;
+.footer .link:hover {
+    padding-left: 10px;
+    transition: .4s;
 }
 
+.footer .groupe {
+    position: absolute;
+    left: 75%;
+}
 
 :root {
     --bleu: #1B222E;
