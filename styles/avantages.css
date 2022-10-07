@@ -200,7 +200,7 @@
     transition: 0.4s ease-in-out;
 }
 .rejoindre .button:hover {
-    background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%);
+    background:#C00000;
     transform: scale(1.05, 1.05);
     cursor: pointer;
 }
