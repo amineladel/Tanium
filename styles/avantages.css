@@ -124,7 +124,7 @@
     padding-top: 3%;
     padding-bottom: 13%;
     color: #FFFFFF;
-    background-color: #1B222E;
+    background: linear-gradient(53deg,#121820 0,#26364d 100%);
 }
 
 .lien_video{
