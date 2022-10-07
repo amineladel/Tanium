@@ -5,3 +5,6 @@ obj
 # PhpStorm
 .idea
 *.userprefs 
+
+# vscode
+.vscode
