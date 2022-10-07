@@ -103,17 +103,6 @@
     transition: 0.4s ease-in-out;
 }
 
-.container .boite2{
-    transition: 0.4s ease-in-out;
-}
-
-.container .boite3{
-    transition: 0.4s ease-in-out;
-}
-
-.container .boite4{
-    transition: 0.4s ease-in-out;
-}
 
 .container .boite1:hover,.boite2:hover,.boite3:hover,.boite4:hover{
     transform: translateY(-10px);
@@ -245,6 +234,10 @@
 
 .anim-3{
     transition-delay: .5s;
+}
+
+.anim-4{
+    transition-delay: .8s;
 }
 
 
