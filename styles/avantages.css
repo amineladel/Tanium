@@ -103,6 +103,17 @@
     transition: 0.4s ease-in-out;
 }
 
+.container .boite2{
+    transition: 0.4s ease-in-out;
+}
+
+.container .boite3{
+    transition: 0.4s ease-in-out;
+}
+
+.container .boite4{
+    transition: 0.4s ease-in-out;
+}
 
 .container .boite1:hover,.boite2:hover,.boite3:hover,.boite4:hover{
     transform: translateY(-10px);
@@ -158,6 +169,14 @@
     transition: 0.4s ease-in-out;
 
 }
+.temoignage .tem2{
+    transition: 0.4s ease-in-out;
+}
+
+.temoignage .tem3{
+    transition: 0.4s ease-in-out;
+}
+
 
 .temoignage .tem1:hover,.tem2:hover,.tem3:hover{
     transform: scale(1.05, 1.05);
