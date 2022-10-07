@@ -4,18 +4,20 @@ url : [https://lucas-besson.github.io/SAE-R05_06/](https://lucas-besson.github.i
 
 Groupe 18 - C2
 
-## Etudiant :
+Notre Sujet de SAE-1.05-06 est l'entreprise Tanium, elle propose des outils pour la sécurité informatique des entreprises.
+
+## Étudiant :
 
 - Référent : Lucas Besson
-- Nathan Marechal
+- Nathan Maréchal
 - Amine Ladel
 - Matthieu Peterschmitt
 
-page d'accueuil :
+## Page d'accueil
 
 Page d'accueil
 
-![page_accueil](https://raw.githubusercontent.com/lucas-besson/SAE-R05_06/master/assets/page_accueil_screenshot.png)
+![page_accueil](https://raw.githubusercontent.com/lucas-besson/SAE-R05_06/master/doc/page_accueil_screenshot.png)
 
 Zoning de la page d'accueil
-![zoning_page_accueil](https://raw.githubusercontent.com/lucas-besson/SAE-R05_06/master/assets/zooning/page_accueil.png)
+![zoning_page_accueil](https://raw.githubusercontent.com/lucas-besson/SAE-R05_06/master/doc/page_accueil.png)
