@@ -103,6 +103,7 @@
     transition: 0.4s ease-in-out;
 }
 
+
 .container .boite1:hover,.boite2:hover,.boite3:hover,.boite4:hover{
     transform: translateY(-10px);
     box-shadow: 2px 2px 12px black;
@@ -111,8 +112,12 @@
 
 .container {
     display: flex;
-    margin-left: 14%;
     margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-left: 2%;
 }
 
 .titre-video{
@@ -158,6 +163,8 @@
     transform: scale(1.05, 1.05);
 }
 
+
+
 .temoignage{
     text-align: center;
     background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%);
@@ -197,6 +204,30 @@
     transform: scale(1.05, 1.05);
     cursor: pointer;
 }
+
+[class*="anim-"]{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.anim-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+.anim-1{
+    transition-delay: .1s;
+}
+
+.anim-2{
+    transition-delay: .2s;
+}
+
+.anim-3{
+    transition-delay: .5s;
+}
+
 
 
 @media screen  and (min-width: 1600px) {
