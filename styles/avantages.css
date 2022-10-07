@@ -124,7 +124,7 @@
     padding-top: 3%;
     padding-bottom: 13%;
     color: #FFFFFF;
-    background-color: #1B222E;
+    background: linear-gradient(53deg,#121820 0,#26364d 100%);
 }
 
 .lien_video{
@@ -158,6 +158,14 @@
     transition: 0.4s ease-in-out;
 
 }
+.temoignage .tem2{
+    transition: 0.4s ease-in-out;
+}
+
+.temoignage .tem3{
+    transition: 0.4s ease-in-out;
+}
+
 
 .temoignage .tem1:hover,.tem2:hover,.tem3:hover{
     transform: scale(1.05, 1.05);
@@ -200,7 +208,7 @@
     transition: 0.4s ease-in-out;
 }
 .rejoindre .button:hover {
-    background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%);
+    background:#C00000;
     transform: scale(1.05, 1.05);
     cursor: pointer;
 }
@@ -226,6 +234,10 @@
 
 .anim-3{
     transition-delay: .5s;
+}
+
+.anim-4{
+    transition-delay: .8s;
 }
 
 
