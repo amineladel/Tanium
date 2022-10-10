@@ -1,5 +1,6 @@
 .couleur {
     padding-top: 4%;
+    font-size: large;
 }
 
 .couleur .bleu,.rouge-1,.rouge-2,.rouge-3,.rouge-btn,.blanc,.couleur-text {
@@ -39,6 +40,24 @@
 
 .couleur-text {
     background-color: var(--text-color);
+}
+
+.font {
+    padding-top: 2%;
+    font-size: large;
+}
+
+.font-base {
+    padding-top: 1vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.font-title {
+    padding-top: 1vh;
+    color: #C00000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
 }
 
 .footer {
