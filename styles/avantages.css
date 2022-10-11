@@ -240,8 +240,6 @@
     transition-delay: .8s;
 }
 
-
-
 @media screen  and (min-width: 1600px) {
     .underline {
         margin-left: 78%;
