@@ -12,6 +12,7 @@
 
 .image-bg {
     width: 100%;
+    margin-top: -2%;
 }
 
 .blur {
@@ -72,27 +73,6 @@
     margin-top: 60px;
     margin-bottom: 50px;
     text-align: center;
-}
-
-#nav {
-    background-color: rgba(232,232,232,100%);
-
-}
-
-.nav-header{
-    background-color: rgba(232,232,232,100%);
-}
-
-@media screen and (min-width: 1000px){
-    .nav-header{
-        background-color: rgba(232,232,232,100%);
-    }
-
-
-    #nav {
-        background-color: rgba(232,232,232,100%);
-
-    }
 }
 
 .text-chiffre p{
