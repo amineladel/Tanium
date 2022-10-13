@@ -18,6 +18,7 @@
     margin-top: -120vh;
     background: rgba(0,0,0,.3);
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     height: 119vh;
     width: 100%;
 }
