@@ -99,7 +99,7 @@
     margin-top: 1%;
     font-size: 20px;
 }
-.container .boite1,.boite2,.boite3,.boite4{
+.container-page .boite1,.boite2,.boite3,.boite4{
     background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%);
     color: white;
     padding-bottom: 2%;
@@ -114,17 +114,17 @@
     width : 20%;
 }
 
-.container h1{
+.container-page h1{
     margin-bottom: 6%;
 }
 
-.container .boite1:hover,.boite2:hover,.boite3:hover,.boite4:hover{
+.container-page .boite1:hover,.boite2:hover,.boite3:hover,.boite4:hover{
     transform: translateY(-10px);
     box-shadow: 2px 2px 12px black;
 }
 
 
-.container {
+.container-page {
     display: flex;
     margin-bottom: 80px;
     display: flex;
@@ -290,9 +290,7 @@
     transition-delay: .8s;
 }
 
-@media screen  and (min-width: 1600px) {
-    .underline {
-        margin-left: 78%;
-    }
+.underline {
+    margin-left: 52%;
 }
 

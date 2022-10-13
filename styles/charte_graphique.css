@@ -1,3 +1,13 @@
+.header-red {
+    position: fixed;
+    display: flex;
+    background-color: red;
+    width: 50%;
+    height: 6%;
+    left: 25%;
+    border-radius: 20px;
+}
+
 .couleur {
     padding-top: 4%;
     font-size: large;
