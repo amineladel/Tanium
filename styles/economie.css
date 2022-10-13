@@ -45,6 +45,7 @@ body{
     position: absolute;
     width: 30%;
     margin-left: 69%;
+    margin-top: 2%;
 }
 
 .circle{
@@ -157,8 +158,16 @@ body{
     padding: 3%;
 }
 
-.paraeco{
+.paraeco1{
     margin: 2%;
+    font-size: 100%;
+    line-height: 170%;
+}
+
+.paraeco2{
+    margin: 2%;
+    font-size: 100%;
+    line-height: 170%;
 }
 
 .excourbe{
@@ -166,6 +175,13 @@ body{
     height: 115%;
     padding: 2%;
     margin-top : -5%
+}
+
+.excourbe2{
+    width: 115%;
+    height: 115%;
+    padding: 2%;
+    margin-top : -3%
 }
 
 .back-top .border {
