@@ -1,5 +1,7 @@
 /* Généale*/
-
+#second {
+    margin-top: -10%;
+}
 
 .mouse-scroll{
     left: 48.2%;
@@ -70,7 +72,7 @@
 
 
 .text-chiffre{
-    margin-top: 60px;
+    margin-top: 260px;
     margin-bottom: 50px;
     text-align: center;
 }
