@@ -20,152 +20,74 @@ body {
     background-color: #1B222E;
 }
 
-#navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-}
-
-.nav-header {
-    background: rgba(232, 232, 232, 75%);
-    border-bottom: #1B222E 2px solid;
-    padding: 10px;
-}
-
-.nav-brand { 
-    font-family: 'Open Sans', sans-serif;
-    justify-content: center;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-size: 2vmax;
-    text-decoration: none;
-    color: #C00000;
-    border: #C00000 solid .12em;
-    border-radius: 15px;
-}
-
-.menu-logo {
-    cursor: pointer;
-    position: absolute;
-    top: 1rem;
-    right: 3%;
-    height: 26px;
-    width: 32px;
+.container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.burger-icon {
-    display: block;
-    height: 4px;
-    width: 100%;
-    background-color: black;
-    border-radius: 1500px;
-    text-align: right;
-    margin-left: auto;
-    margin-right: 0;
-    transition: transform 0.4s ease-in-out;
-}
-
-/* Rotate first bar */
-.change .menu-1 { 
-    transform-origin: 0% 0%;
-    transition: transform 0.4s ease-in-out;
-    transform: rotate(45deg); 
-}
-
-/* Fade out the second bar */
-.change .menu-2 { 
-    transition: transform 0.2s ease-in-out;
-    transform: scaleY(0); }
-
-/* Rotate last bar */
-.change .menu-3 { 
-    transform-origin: 0% 100%;
-    transform: rotate(-45deg); 
-    transition: transform 0.4s ease-in-out;
-}
-
-#nav {
-    list-style: none;
-    display: none;
-    opacity: 0;
-    background-color: rgba(232, 232, 232, .75);
-    text-align: center;
+    flex-flow: row nowrap;
     justify-content: center;
-    padding-top: 1rem;
-    border-bottom: #1B222E 2px solid;
-    transition: opacity 1s;
-    font-size: 4vmax;
+    align-content: center;
 }
 
-@media screen  and (min-width: 1600px) {
-    .burger-icon { display: none; }
-    .nav-header { background-color: rgba(232, 232, 232, 75%); }
-
-    ul li {
-        display: inline;
-        text-align: center;
-    }
-
-    #nav {
-        visibility: visible;
-        opacity: 1;
-        font-size: 30px;
-        padding: 0;
-        padding-top: .2vmin;
-        border-bottom: none;
-        margin-top: -6.5vmin;
-        background-color: rgba(0,0,0,0%);
-        float: right;
-        color: var(--text-color);
-        display: inline;
-    }
-
-    .nav-brand { width:  15vmax; }
-
-    .nav-link {
-        display: inline;
-        width: 25vmax;
-        padding: .75rem 0;
-    }
-
-    .link-1:hover ~ hr { margin-left: 1%;}
-
-    .link-2:hover ~ hr { margin-left: 20%; }
-
-    .link-3:hover ~ hr { margin-left: 45%; }
-
-    .link-4:hover ~ hr { margin-left: 78%; }
-
-    .underline {
-        height: .25rem;
-        width: 15%;
-        margin-left: 1%;
-        background: var(--bleu);
-        border: none;
-        transition: .3s ease-in-out;
-    }
+.padding-1 {
+    padding-top: 1%;
 }
 
-.nav-item {
-    padding-left: 1em;
-    padding-right: 1em;
-    display: inline;
+.navbar {
+    position: fixed;
+    display: flex;
+
+    justify-content: center;
+    
+    width: 50%;
+
+    padding-right: 2%;
+    padding-left: 2%;
+
+    color: var(--bleu);
+
+    background: rgba(200, 200, 200, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+
+    z-index: 99;
 }
 
 .nav-link {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--blanc);
+    padding: 2%;
+    font-size: 1vmax;
 }
 
-.nav-link:hover { color: var(--text-color); }
+.underline {
+    position: fixed;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    background-color: white;
+    height: 4px;
+    width: 72px;
+    margin-top: 5%;
+    margin-left: -62%;
+    transition: .3s ease-in-out;
+}
 
-.nav-link:active {
-    color: var(--text-color);
-    text-decoration: none;
+.link-1:hover ~ .underline {
+    margin-left: -62%;
+}
+
+.link-2:hover ~ .underline {
+    margin-left: -35%;
+}
+
+.link-3:hover ~ .underline {
+    margin-left: 5%;
+}
+
+.link-4:hover ~ .underline {
+    margin-left: 52%;
 }
 
 .mouse-scroll {

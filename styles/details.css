@@ -5,6 +5,11 @@ html, body {
     padding: 0;
     scroll-behavior: smooth;
 }
+
+.underline {
+    margin-left: 5%;
+}
+
 /* PARTIE  : VIDEO   ----------------------------*/
 .video-container {
     position: relative;
