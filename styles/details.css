@@ -196,19 +196,19 @@ video{
 }
 
 #carte1 {
-    background-image: url("../assets/asset.png");
+    background-image: url("../assets/taniumasset.png");
 }
 
 #carte2 {
-    background-image: url("../assets/discover.png");
+    background-image: url("../assets/taniumdiscover.png");
 }
 
 #carte3 {
-    background-image: url("../assets/patch.png");
+    background-image: url("../assets/taniumpatch.png");
 }
 
 #carte4 {
-    background-image: url("../assets/performeur.png");
+    background-image: url("../assets/taniumperformance.png");
 }
 
 
