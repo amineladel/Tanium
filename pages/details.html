@@ -26,7 +26,7 @@
 <section class="section0">
     <div class="divtête">
         <video autoplay muted loop >
-            <source src="../assets/video_details.mp4" type="video/mp4" />
+            <source src="../assets/video_details.mp4" type="video/mp4" alt="video illustrative"/>
         </video>
         <div class="blur"></div>
         <div class="bg-text">
@@ -52,14 +52,12 @@
 <!-- Container 2 -->
 <div class="container_2" id="fonctionnalites">
     <titre_fonction><strong>FONCTIONNALITÉS</strong></titre_fonction>
-
-
-    <div class="test">
-        <div class="container_card" onclick="location.href='#module_1'" >
+    <div class="ensemble_carte">
+        <div class="container_card" onclick="location.href='#module_1'" id="carte1">
             <div class="plus_info">
                 <div class = "items"></div>
                 <div class = "items head">
-                    <p>Ceci est une description courte</p>
+                    <p>Module incoutournable de TANIUM</p>
                     <hr>
                 </div>
                 <div class="items foot">
@@ -69,11 +67,11 @@
             </div>
         </div>
 
-        <div class="container_card" onclick="location.href='#module_2'">
+        <div class="container_card" onclick="location.href='#module_2'" id="carte2">
             <div class="plus_info">
                 <div class = "items"></div>
                 <div class = "items head">
-                    <p>Ceci est une description courte</p>
+                    <p>Idéal pour les administrateur réseau</p>
                     <hr>
                 </div>
                 <div class="items foot">
@@ -83,11 +81,11 @@
             </div>
         </div>
 
-        <div class="container_card" onclick="location.href='#module_3'">
+        <div class="container_card" onclick="location.href='#module_3'" id="carte3">
             <div class="plus_info">
                 <div class = "items"></div>
                 <div class = "items head">
-                    <p>Ceci est une description courte</p>
+                    <p>Simplifier et gérer vos systèmes</p>
                     <hr>
                 </div>
                 <div class="items foot">
@@ -97,11 +95,11 @@
             </div>
         </div>
 
-        <div class="container_card" onclick="location.href='#module_4'">
+        <div class="container_card" onclick="location.href='#module_4'" id="carte4">
             <div class="plus_info">
                 <div class = "items"></div>
                 <div class = "items head">
-                    <p>Ceci est une description courte</p>
+                    <p>Surveiller votre consommation  et vos ressources</p>
                     <hr>
                 </div>
                 <div class="items foot">
@@ -123,9 +121,12 @@
     <section id="hero">
         <div class="hero_container">
             <div class="info">
-                <h4>Ceci est un titre</h4>
-                <h5>Ceci est un sous titre</h5>
-                <text>Ceci est une longue, vraiment très longue description, qui fait croire que le exte est long mis vraiment long.</text>
+                <h4>TANIUM Asset</h4>
+                <h5>Module incoutournable de TANIUM</h5>
+                <text>Il bénéficie d’une fonction qui permet d’avoir un inventaire complet du matériel et des
+                    logiciels d’une entreprise. Il génère un « rapport automatisé sur les ressources ». Ce qui permet à
+                    une entreprise de gérer les stocks matériels, applications, et autres ; ainsi que leurs affections. Il
+                    permet également d’optimiser leurs utilisations.</text>
             </div>
             <button id="button_bas" onclick="location.href='#module_2'"></button>
         </div>
@@ -137,9 +138,15 @@
     <section id="hero">
         <div class="hero_container">
             <div class="info">
-                <h4>Ceci est un titre</h4>
-                <h5>Ceci est un sous titre</h5>
-                <text>Ceci est une longue, vraiment très longue description, qui fait croire que le exte est long mis vraiment long.</text>
+                <h4>TANIUM Discover</h4>
+                <h5>Idéal pour les administrateur réseau</h5>
+                <text>Ce module permet de suivre en temps réel ceux qui
+                    sont connectés au réseau de l’entreprise. Grâce à ce module, un administrateur réseau pourra
+                    bloquer tout appareil indésirable ou vérifier l’utilisation qui est faites des ordinateurs. Le module va
+                    analyser les réseaux et le comportement de toutes les infrastructures connectées afin de détecter
+                    des anomalies comme par exemple des ordinateurs non répertoriés. Pour chaque appareil détecté
+                    sur le réseau, TANIUM Discover affiche le nom d’hôte*, les adresse MAC* et IP*, le fabricant de
+                    l’appareil ainsi que le système d’exploitation.</text>
             </div>
             <button id="button_bas" onclick="location.href='#module_3'"></button>
         </div>
@@ -151,9 +158,14 @@
     <section id="hero">
         <div class="hero_container">
             <div class="info">
-                <h4>Ceci est un titre</h4>
-                <h5>Ceci est un sous titre</h5>
-                <text>Ceci est une longue, vraiment très longue description, qui fait croire que le exte est long mis vraiment long.</text>
+                <h4>TANIUM Patch</h4>
+                <h5>Simplifier et gérer les différents systèmes d’exploitation de votre infrastructure.</h5>
+                <text>Certaines entreprises suivant le
+                    domaine et la fonction de chaque collaborateur, les systèmes d’exploitation installés sur les
+                    ordinateurs sont différents. Une personne qui va programmer sera plutôt sur un système
+                    d’exploitation du type Linux et une personne qui va faire du graphisme sera plus sur Windows ou
+                    MacOS. Ainsi Tanium Patch permet d’appliquer les correctifs, ainsi que les mises à jour, adaptées à
+                    chaque système d’exploitation en quelques clics depuis la plate-forme.</text>
             </div>
             <button id="button_bas" onclick="location.href='#module_4'"></button>
         </div>
@@ -165,9 +177,9 @@
     <section id="hero">
         <div class="hero_container">
             <div class="info">
-                <h4>Ceci est un titre</h4>
-                <h5>Ceci est un sous titre</h5>
-                <text>Ceci est une longue, vraiment très longue description, qui fait croire que le exte est long mis vraiment long.</text>
+                <h4>TANIUM Performance</h4>
+                <h5>Surveiller votre consommation  et les ressources des ordinateurs.</h5>
+                <text>Le module va analyser les données de performance des ordinateurs afin de repérer les plus gourmands en ressources. Le gestionnaire informatique recevra une notification qui lui permettra d’examiner l’origine de la surconsommation. Lors du déploiement d’une nouvelle mise à jour le module permet au service informatique de regarder les effets d’un correctif ou d’une mise à jour sur le CPU.</text>
             </div>
         </div>
     </section>
