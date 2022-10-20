@@ -73,10 +73,10 @@ video{
 
 
 
-/* cartes -------------------------------------------------------------*/
+/* Cartes -------------------------------------------------------------*/
 
 
-.test {
+.ensemble_carte {
     display: flex;
     flex-direction: row;
 
@@ -99,7 +99,7 @@ video{
 titre_fonction{
     position: absolute;
     top: 15%;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 
@@ -110,7 +110,7 @@ titre_fonction{
     margin: auto;
     margin-left: 20px;
     margin-right: 20px;
-    /*background-color: ;*/
+    background-color: #26364d;
     background-size: cover;
     cursor: pointer;
     -webkit-box-shadow: 0 0 5px #000;
@@ -128,7 +128,6 @@ titre_fonction{
     color: #FEF5DF;
     opacity: 0;
     transition: all 0.5s;
-    font-family: "Playfair Display", serif;
     border-radius: 15px;
 }
 
@@ -171,7 +170,6 @@ titre_fonction{
     font-size: 12px;
     opacity: 0;
     letter-spacing: 1px;
-    font-family: "Lato", sans-serif;
     transform: translateY(40px);
     transition: all 0.7s;
 }
@@ -200,14 +198,30 @@ titre_fonction{
     opacity: 1;
 }
 
+#carte1 {
+    background-image: url("../assets/asset.png");
+}
 
-/* Container 3 -------------------------- */
+#carte2 {
+    background-image: url("../assets/discover.png");
+}
+
+#carte3 {
+    background-image: url("../assets/patch.png");
+}
+
+#carte4 {
+    background-image: url("../assets/performeur.png");
+}
+
+
+/* Module 1 -------------------------- */
 .module_1{
     width: 100%;
     height: 102vh;
     background: linear-gradient(53deg,#121820 0,#26364d 100%);
-    font-family: "Roboto Mono";
     color: white;
+    text-align: justify;
 }
 
 
@@ -237,6 +251,7 @@ titre_fonction{
 #hero .info text {
     font-size: 1.2rem;
     max-width: 50%;
+
 }
 
 /*----------------------------------------------*/
@@ -245,14 +260,14 @@ titre_fonction{
 
 
 
-/* Container 4 -------------------------- */
+/* Module 2 -------------------------- */
 
 .module_2{
     background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%);
     width: 100%;
     height: 102vh;
-    font-family: "Roboto Mono";
     color: white;
+    text-align: justify;
 }
 
 
