@@ -47,7 +47,6 @@ video{
     margin-top: -119vh;
     background: rgba(0,0,0,.3);
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
     height: 119vh;
     width: 100%;
 }
@@ -73,7 +72,7 @@ video{
 
 
 
-/* Cartes -------------------------------------------------------------*/
+/* PARTIE  : CARTES   ----------------------------*/
 
 
 .ensemble_carte {
@@ -88,7 +87,6 @@ video{
     width: 100%;
     height: 100vh;
     display: flex;
-    align-items: first;
     padding-top: 15vh;
     flex-direction: row;
     justify-content: center;
@@ -96,7 +94,7 @@ video{
 
 }
 
-titre_fonction{
+.titre_fonction{
     position: absolute;
     top: 15%;
     font-size: 50px;
@@ -113,7 +111,6 @@ titre_fonction{
     background-color: #26364d;
     background-size: cover;
     cursor: pointer;
-    -webkit-box-shadow: 0 0 5px #000;
     box-shadow: 0 0 5px #000;
     border-radius: 15px;
 }
@@ -215,7 +212,8 @@ titre_fonction{
 }
 
 
-/* Module 1 -------------------------- */
+/* CONTAINER BLEU   ----------------------------*/
+
 .module_1{
     width: 100%;
     height: 102vh;
@@ -225,7 +223,7 @@ titre_fonction{
 }
 
 
-#hero {
+.hero {
     height: 100vh;
     width: 100%;
 }
@@ -239,28 +237,21 @@ titre_fonction{
     justify-content: left;
     /*   text-align: center; */
 }
-#hero .info h4 {
+.hero .info h4 {
     font-size: 3rem;
-    /* text-transform: uppercase; */
     margin-bottom: 1rem;
 }
-#hero .info h5 {
+.hero .info h5 {
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
-#hero .info text {
+.texte {
     font-size: 1.2rem;
-    max-width: 50%;
-
 }
 
-/*----------------------------------------------*/
 
 
-
-
-
-/* Module 2 -------------------------- */
+/* CONTAINER ROUGE  ----------------------------*/
 
 .module_2{
     background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%);
@@ -271,9 +262,10 @@ titre_fonction{
 }
 
 
-#button_bas {
+/* BOUTON BAS   ----------------------------*/
+
+.button_bas {
     appearance:none;
-    -webkit-appearance:none;
     background-color:transparent;
     border:none;
     outline:none;
