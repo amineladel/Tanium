@@ -9,151 +9,79 @@ html, body {
 .underline {
     margin-left: 5%;
 }
+.mouse-scroll{
+    left: 48.2%;
+    transition: all .4s;
+}
+
+.mouse-scroll:hover {
+    transform: scale(1.15,1.15);
+}
+
+.back-top .border {
+    position: fixed;
+    top: 88%;
+    left: 90%;
+    border: rgba(232,232,232,50%) 2px solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.back-top .border img {
+    margin-left: 8px;
+    margin-top: 6px;
+    width: 60px;
+    height: 60px;
+}
+
 
 /* PARTIE  : VIDEO   ----------------------------*/
-.video-container {
-    position: relative;
+
+video{
     width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: -2%;
 }
 
-.video-container video {
+.blur {
+    margin-top: -119vh;
+    background: rgba(0,0,0,.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 119vh;
     width: 100%;
-    height: 100vh;
-    position: absolute;
-    object-fit: cover;
-    z-index: 0;
-    filter: blur(6px);
 }
 
-
-
-.video-container .video_texte {
-    position: relative;
-    text-align: center;
+.bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
     color: white;
-    padding: 10%;
-    font-size: 60px;
-}
-
-.ligne_1 {
-    font-size: 100px;
-    margin-bottom: 24px;
-    color:  white ;
-}
-
-.ligne_1 span {
-    color: rgb(236, 46, 48);
-}
-
-.main_button {
-    font-size: 1.8rem;
-    background: rgb(236, 46, 48);
-    padding: 20px 60px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 2rem;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.35s;
-    outline: none;
-}
-
-.main_button a {
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    text-decoration: none;
-}
-
-.main_button:after {
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    border-radius: 15px;
     position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: rgb(3, 24, 51);
-    transition: all 0.35s;
-    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
 }
 
 
-
-.main_button:hover:after {
-    width: 100%;
-}
-
-@media screen and (max-width: 390px) {
-    .video-container {
-        position: relative;
-        width: 100%;
-        height: 844px;
-    }
-
-    .video-container video {
-        width: 100%;
-        height: 844px;
-        position: absolute;
-        object-fit: cover;
-        z-index: 0;
-        filter: blur(6px);
-    }
-
-
-    .video-container .video_texte {
-        position: relative;
-        text-align: center;
-        color: white;
-        padding: 15%;
-        font-size: 60px;
-    }
-
-    .ligne_1 {
-        font-size: 100px;
-        margin-bottom: 24px;
-        color:  white ;
-    }
-
-
-    .main_button {
-        font-size: 1.8rem;
-        padding: 20px 60px;
-        border: none;
-        border-radius: 10px;
-        margin-top: 2rem;
-        cursor: pointer;
-        position: relative;
-        transition: all 0.35s;
-        outline: none;
-    }
-
-    .main_button a {
-        position: relative;
-        z-index: 2;
-        color: #fff;
-        text-decoration: none;
-    }
-
-    .main_button:after {
-        position: absolute;
-        content: '';
-        top: 0;
-        left: 0;
-        width: 0;
-        height: 100%;
-        background: rgb(3, 24, 51);
-        transition: all 0.35s;
-        border-radius: 10px;
-    }
-
-}
 
 /* cartes -------------------------------------------------------------*/
+
+
+.test {
+    display: flex;
+    flex-direction: row;
+
+}
+
 
 .container_2 {
     position: relative;
@@ -165,13 +93,13 @@ html, body {
     flex-direction: row;
     justify-content: center;
 
+
 }
 
-h1 {
+titre_fonction{
+    position: absolute;
+    top: 15%;
     font-size: 70px;
-    color:  red ;
-    font-family: "Playfair Display", serif;
-
 }
 
 
@@ -179,13 +107,10 @@ h1 {
 .container_card {
     width: 300px;
     height: 400px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
     margin: auto;
-    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*background-color: ;*/
     background-size: cover;
     cursor: pointer;
     -webkit-box-shadow: 0 0 5px #000;
@@ -199,7 +124,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 2fr 1fr;
-    background: rgba(77, 77, 77, 0.9);
+    background: linear-gradient(to bottom right, #C00000, #d42b2e);
     color: #FEF5DF;
     opacity: 0;
     transition: all 0.5s;
@@ -276,6 +201,73 @@ h1 {
 }
 
 
-/* Footer ---------------------------------------------------------*/
+/* Container 3 -------------------------- */
+.module_1{
+    width: 100%;
+    height: 102vh;
+    background: linear-gradient(53deg,#121820 0,#26364d 100%);
+    font-family: "Roboto Mono";
+    color: white;
+}
 
 
+#hero {
+    height: 100vh;
+    width: 100%;
+}
+.hero_container {
+    width: 90%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /*   text-align: center; */
+}
+#hero .info h4 {
+    font-size: 3rem;
+    /* text-transform: uppercase; */
+    margin-bottom: 1rem;
+}
+#hero .info h5 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+#hero .info text {
+    font-size: 1.2rem;
+    max-width: 50%;
+}
+
+/*----------------------------------------------*/
+
+
+
+
+
+/* Container 4 -------------------------- */
+
+.module_2{
+    background: linear-gradient(233deg, #EC2E30 0%, #C00000 33%, #8C0705 100%);
+    width: 100%;
+    height: 102vh;
+    font-family: "Roboto Mono";
+    color: white;
+}
+
+
+#button_bas {
+    appearance:none;
+    -webkit-appearance:none;
+    background-color:transparent;
+    border:none;
+    outline:none;
+    background-image:url('../assets/bas-modified.png');
+    background-size:40px 34px;
+    background-position: 18px 5px;
+    padding:22px 38px;
+    background-repeat:no-repeat;
+    position: relative;
+    top: 40%;
+    right: 46%;
+}

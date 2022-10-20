@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -11,40 +11,55 @@
     <title>Détails</title>
 </head>
 <body>
-    <div class="container padding-1">
-        <div class="navbar">
-            <a class="link-1 nav-link" href="../index.html"><span><strong>ACCUEIL</strong></span></a>
-            <a class="link-2 nav-link" href="economie.html"><span><strong>ÉCONOMIE</strong></span></a>
-            <a class="link-3 nav-link" href="details.html"><span><strong>PLATEFORME TANIUM</strong></span></a>
-            <a class="link-4 nav-link" href="avantages.html"><span><strong>POURQUOI TANIUM</strong></span></a>
-            <hr class="underline">
-        </div>
+<div class="container padding-1">
+    <div class="navbar">
+        <a class="link-1 nav-link" href="../index.html"><span><strong>ACCUEIL</strong></span></a>
+        <a class="link-2 nav-link" href="economie.html"><span><strong>ÉCONOMIE</strong></span></a>
+        <a class="link-3 nav-link" href="details.html"><span><strong>PLATFORME TANIUM</strong></span></a>
+        <a class="link-4 nav-link" href="avantages.html"><span><strong>POURQUOI TANIUM</strong></span></a>
+        <hr class="underline">
     </div>
-    <!-- Code -->
+</div>
+<!-- Code -->
 
-    <!-- Container 1 Video -->
-    <div class="video-container">
-        <video autoplay muted loop>
+<!-- Container 1 Video D'accueil -->
+<section class="section0">
+    <div class="divtête">
+        <video autoplay muted loop >
             <source src="../assets/video_details.mp4" type="video/mp4" />
         </video>
-        <div class="video_texte">
-            <div class="container">
-                <h1 class="ligne_1">The <span>power</span> of certainty</h1>
-                <p class="ligne_2">Découvrez la plateforme</p>
-                <a class="a_button" href="#fonctionnalites"><button class="main_button">>></button></a>
-            </div>
+        <div class="blur"></div>
+        <div class="bg-text">
+            <h1 class="Typewriter">DÉCOUVRIR LA PLATEFORME <img src="../assets/logo.svg"> </h1>
         </div>
     </div>
 
-    <!-- Container 2 -->
-    <div class="container_2" id="fonctionnalites">
-        <h1>Fonctionnalités</h1>
+    <a href="#fonctionnalites">
+        <div class="mouse-scroll">
+            <div class="scroll-animation"></div>
+        </div>
+    </a>
 
-        <div class="container_card">
+    <a class="back-top" href="#top">
+        <div class="border">
+            <img src="../assets/up_arrow.png" alt="image pour remonter en haut de la page">
+        </div>
+    </a>
+
+</section>
+
+
+<!-- Container 2 -->
+<div class="container_2" id="fonctionnalites">
+    <titre_fonction><strong>FONCTIONNALITÉS</strong></titre_fonction>
+
+
+    <div class="test">
+        <div class="container_card" onclick="location.href='#module_1'" >
             <div class="plus_info">
                 <div class = "items"></div>
                 <div class = "items head">
-                    <p>Ceci est une descrition courte</p>
+                    <p>Ceci est une description courte</p>
                     <hr>
                 </div>
                 <div class="items foot">
@@ -53,42 +68,145 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Footer
-
-    <footer class="bg">
-        <div class="footer">
-            <div class="credit">
-                <h3>Amine Ladel a réalisé cette page.</h3>
-            </div>
-            <div class="github"><p>Lien du Project Github :</p>
-                <a class="github-link" href="https://github.com/lucas-besson/SAE-R05_06" target="_blank">https://github.com/lucas-besson/SAE-R05_06</a>
-            </div>
-            <div class="pages">
-                <h2>Pages :</h2>
-                <a class="link" href="#top"><span><strong>Accueil</strong></span></a>
-                <br>
-                <a class="link" href="pages/histoire.html"><span><strong>Histoire</strong></span></a>
-                <br>
-                <a class="link" href="pages/details.html"><span><strong>Platforme Tanium</strong></span></a>
-                <br>
-                <a class="link" href="pages/avantages.html"><span><strong>Pourquoi Tanium</strong></span></a>
-            </div>
-            <div class="legal">
-                <h2>Légal :</h2>
-                <a href="mention_legales.html" class="link mention">Mention Légal</a>
-                <br>
-                <a href="chart_graphique.html" class="link charte">Charte Graphique</a>
-            </div>
-            <div class="groupe">
-                <h2>Groupe 18 :</h2>
-                <p class="person"><strong>Référent</strong> : Lucas Besson</p>
-                <p class="person">Amine Ladel</p>
-                <p class="person">Nathan Maréchal</p>
-                <p class="person">Matthieu Peterschmitt</p>
+        <div class="container_card" onclick="location.href='#module_2'">
+            <div class="plus_info">
+                <div class = "items"></div>
+                <div class = "items head">
+                    <p>Ceci est une description courte</p>
+                    <hr>
+                </div>
+                <div class="items foot">
+                    <i class="plus_info_button"></i>
+                    <span>+ d'infos</span>
+                </div>
             </div>
         </div>
-    </footer> -->
+
+        <div class="container_card" onclick="location.href='#module_3'">
+            <div class="plus_info">
+                <div class = "items"></div>
+                <div class = "items head">
+                    <p>Ceci est une description courte</p>
+                    <hr>
+                </div>
+                <div class="items foot">
+                    <i class="plus_info_button"></i>
+                    <span>+ d'infos</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container_card" onclick="location.href='#module_4'">
+            <div class="plus_info">
+                <div class = "items"></div>
+                <div class = "items head">
+                    <p>Ceci est une description courte</p>
+                    <hr>
+                </div>
+                <div class="items foot">
+                    <i class="plus_info_button"></i>
+                    <span>+ d'infos</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- Module 1 -->
+<div class="module_1" id="module_1">
+
+    <section id="hero">
+        <div class="hero_container">
+            <div class="info">
+                <h4>Ceci est un titre</h4>
+                <h5>Ceci est un sous titre</h5>
+                <text>Ceci est une longue, vraiment très longue description, qui fait croire que le exte est long mis vraiment long.</text>
+            </div>
+            <button id="button_bas" onclick="location.href='#module_2'"></button>
+        </div>
+    </section>
+</div>
+
+<!-- Module 2 -->
+<div class="module_2" id="module_2">
+    <section id="hero">
+        <div class="hero_container">
+            <div class="info">
+                <h4>Ceci est un titre</h4>
+                <h5>Ceci est un sous titre</h5>
+                <text>Ceci est une longue, vraiment très longue description, qui fait croire que le exte est long mis vraiment long.</text>
+            </div>
+            <button id="button_bas" onclick="location.href='#module_3'"></button>
+        </div>
+    </section>
+</div>
+
+<!-- Module 3 -->
+<div class="module_1" id="module_3">
+    <section id="hero">
+        <div class="hero_container">
+            <div class="info">
+                <h4>Ceci est un titre</h4>
+                <h5>Ceci est un sous titre</h5>
+                <text>Ceci est une longue, vraiment très longue description, qui fait croire que le exte est long mis vraiment long.</text>
+            </div>
+            <button id="button_bas" onclick="location.href='#module_4'"></button>
+        </div>
+    </section>
+</div>
+
+<!-- Module 4 -->
+<div class="module_2" id="module_4">
+    <section id="hero">
+        <div class="hero_container">
+            <div class="info">
+                <h4>Ceci est un titre</h4>
+                <h5>Ceci est un sous titre</h5>
+                <text>Ceci est une longue, vraiment très longue description, qui fait croire que le exte est long mis vraiment long.</text>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<!-- Footer -->
+<footer class="bg">
+    <div class="footer">
+        <div class="credit">
+            <h3>Amine Ladel a réalisé cette page.</h3>
+        </div>
+        <div class="github"><p>Lien du Project Github :</p>
+            <a class="github-link" href="https://github.com/lucas-besson/SAE-R05_06" target="_blank">https://github.com/lucas-besson/SAE-R05_06</a>
+        </div>
+        <div class="pages">
+            <h2>Pages :</h2>
+            <a class="link" href="../index.html"><span><strong>Accueil</strong></span></a>
+            <br>
+            <a class="link" href="economie.html"><span><strong>Histoire</strong></span></a>
+            <br>
+            <a class="link" href="details.html"><span><strong>Platforme Tanium</strong></span></a>
+            <br>
+            <a class="link" href="avantages.html"><span><strong>Pourquoi Tanium</strong></span></a>
+        </div>
+        <div class="legal">
+            <h2>Légal :</h2>
+            <a href="mention_legales.html" class="link mention">Mention Légal</a>
+            <br>
+            <a href="chart_graphique.html" class="link charte">Charte Graphique</a>
+        </div>
+        <div class="groupe">
+            <h2>Groupe 18 :</h2>
+            <p class="person"><strong>Référent</strong> : Lucas Besson</p>
+            <p class="person">Amine Ladel</p>
+            <p class="person">Nathan Maréchal</p>
+            <p class="person">Matthieu Peterschmitt</p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
